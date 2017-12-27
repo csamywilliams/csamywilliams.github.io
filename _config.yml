@@ -55,6 +55,9 @@ baseurl: ""
 
 permalink: /:title/
 
+# Add page theme
+theme: jekyll-theme-merlot
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
