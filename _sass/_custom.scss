@@ -1,0 +1,15 @@
+
+.wrapper-masthead, 
+.wrapper-footer {
+ background-color: $coral !important; 
+}
+
+.site-name {
+ font-family: 'Permanent Marker', cursive;
+}
+
+.site-name,
+.site-description,
+nav a {
+  color: $white;
+}
