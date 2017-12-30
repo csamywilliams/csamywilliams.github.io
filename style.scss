@@ -226,7 +226,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $coral;
     }
   }
 }
@@ -273,7 +273,8 @@ nav {
 }
 
 footer {
-  padding: 20px 0 5px 0;
+  margin-top: 10px;
+  padding: 25px 0 25px 0;
   text-align: center;
 }
 
