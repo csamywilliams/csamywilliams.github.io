@@ -20,12 +20,19 @@ $coral: #CD5260;
 $sand-brown: #B37D4E;
 $summer-blue: #438496;
 
+$dark-gold: #b18247;
+$dark-grey: #3B3B3B;
+$light-pink: rgba(250, 238, 238, 1);
+$pink: #FF99CC;
+
+
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 $primary-font: 'Kanit', sans-serif;
+$header-font: 'Sacramento', cursive;
 
 // Mobile breakpoints
 @mixin mobile {

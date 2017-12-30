@@ -3,19 +3,32 @@
   border-radius: 5px;
 }
 
-.wrapper-masthead, 
+.banner-bar {
+  width: 100%;
+  height: 10px;
+  background: url(/images/bar.jpg);
+}
+
+.wrapper-masthead {
+  background-color: $white !important; 
+ }
+
 .wrapper-footer {
- background-color: $summer-blue !important; 
+ background-color: $light-pink !important; 
 }
 
 .site-name {
-  font-family: 'Permanent Marker', cursive;
+  font-family: $header-font;
   font-size: 35px;
 }
 
-.site-name,
-.site-description,
-nav a {
-  color: $white;
+.site-name{
+  margin: 0 auto;
+  text-align: center;
+  color: $dark-gold;
+  font-size: 50px;
 }
 
+.small-text {
+  font-size: 14px;
+}

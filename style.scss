@@ -32,8 +32,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font;
-  color: $darkerGray;
-  font-weight: bold;
+  color: $dark-gold;
+  //font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $coral;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $dark-gold;
   }
 }
 
@@ -176,7 +176,6 @@ img {
 }
 
 .site-info {
-  float: left;
 
   @include mobile {
     float: none;
@@ -206,8 +205,8 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; 
+  margin: 0 auto;
+  text-align: center;
   font-family: $primary-font;
   font-size: 18px;
 
@@ -220,7 +219,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $coral;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -274,7 +273,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 20px 0 5px 0;
   text-align: center;
 }
 
